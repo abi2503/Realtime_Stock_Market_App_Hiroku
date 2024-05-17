@@ -93,6 +93,9 @@
         #portfolio-btn:hover {
             background-color: #0056b3;
         }
+        #streamlit-btn:hover {
+            background-color: #0056b3;
+        }
 
         #logout-btn {
             display: block;
@@ -127,7 +130,7 @@
     <div id="tickers-grid">
         <!-- Ticker cards will be dynamically generated here -->
     </div>
-    <a href="https://streamlit-stock-data-cb44212f59ed.herokuapp.com" > Navigate To Stramlit </a>
+    <a href="https://streamlit-stock-data-cb44212f59ed.herokuapp.com" id="streamlit-btn"> Data Analysis And Prediction </a>
     <a href="{{ url_for('portfolio', user_id=user_id) }}" id="portfolio-btn">View Portfolio</a>
     <a href="{{ url_for('home', username=username, user_id=user_id) }}" id="chat-btn">Chatroom</a> <!-- Chatroom button -->
     <button class="logout-btn" id="logout-btn">Logout</button> <!-- Logout button -->
