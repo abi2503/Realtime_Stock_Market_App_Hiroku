@@ -30,6 +30,7 @@ crispy-bootstrap5~=0.7
 djoser==2.0.5
 dnspython==2.4.2
 email-validator==2.1.0.post1
+eventlet==0.33.3
 et-xmlfile==1.1.0
 filelock==3.13.1
 Flask==2.3.3
